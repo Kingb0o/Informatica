@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+
+.footerLinks a {
+    transition-duration: 0,4s;
+    color: whitesmoke;
+}
+
+.footerLinks a:hover {
+    color: rgb(188, 0, 49);
+}
+
+.footerLinks a:active {
+    color: black;
+}
+
+.container {
+    width: 70%;
+    overflow: hidden;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.mainFooter {
+    color: rgb(220, 221, 222);
+    background-color: rgb(31, 29, 33);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    width: 100%;
+    padding-top: 1%;
+}
+
+.mainFooter > .overTekst {
+    float: left;
+}
+
+.mainFooter h6 {
+    color:whitesmoke;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    width: 60%;
+}
+
+.mainFooter a
+{
+    text-decoration: none white;
+}
+
+.footerLinks
+{
+    float: left;
+    padding-left:0;
+    list-style:none;
+    margin: 0;
+}
+
+.footerLinks li
+{
+    display: block;
+}
+
+.footerLinks a:active, .footerLinks a:focus, .footerLinks a:hover
+{
+    color: rgb(188, 0, 49);
+    text-decoration: none;
+}
+
+.mainFooter.inline li
+{
+    display: inline-block;
+}
+
+.mainFooter .block
+{
+    padding-top: 10px;
+    float: left;
+    width: 30%;
+    margin-right: 15px;
+}
+
+.mainFooter .socialIcons
+{
+    text-align: right;
+}
+
+.mainFooter .rowTwo a
+{
+    text-decoration: none whitesmoke;
+}
+
+.mainFooter a :hover
+{
+    color:rgb(204, 29, 29);
+}
+
+.mainFooter .blokTwee
+{
+    float: left;
+    width: 40%;
+}
+
+.blokTwee .icons
+{
+    color: black;
+    list-style-type: none;
+    vertical-align: middle;
+    overflow: hidden;
+    float: right;
+    list-style: none;
+    font-size: 30px;
+}
+
+.copyrightText a:active, .copyrightText a:focus, .copyrightText a:hover
+{
+    color: rgb(204, 29, 29);
+    text-decoration: none;
+}
+
+.copyrightText a
+{
+    color: whitesmoke;
+}
+
+.icons li :visited, .icons li
+{
+    color: black;
+    display: inline;
+    padding-right: 10px;
+}
+
+#b1 {
+    width: 40%;
+    height: 10%;
+}
+
+#b2 {
+    width: 25%;
+    height: 10%;
+}
+
+#b3 {
+    width: 20%;
+    height: 10%;
+}

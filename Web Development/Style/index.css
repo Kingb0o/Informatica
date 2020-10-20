@@ -1,0 +1,65 @@
+.banner {
+    background-image: url("../Images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.banner > * {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titel, .subtitel {
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.titel {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.subtitel {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.banner-transbox {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0px 40px;
+}
+
+.content {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 75%;
+    height: 900px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.subjectdiv {
+    box-sizing: border-box;
+    border-top: 2px solid black;
+    background-color: rgb(235, 235, 236);
+    height: 33.3%;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+
+.subjectdiv:hover {
+    background-color: rgb(220, 221, 222);
+}
+
+.subject {
+    width: 33.3%;
+    float: left;
+}
